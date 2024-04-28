@@ -135,7 +135,7 @@ describe('handleClick', () => {
         const detailRestaurant = document.querySelector("#ramen-detail > .restaurant");
         const detailsRating = document.getElementById("rating-display");
         const detailsComment = document.getElementById("comment-display");
-
+       
         expect(detailName.textContent).toBe('Shoyu Ramen');
         expect(detailRestaurant.textContent).toBe('Nonono');
         expect(detailImg.src).toBe('./assets/ramen/shoyu.jpg');
